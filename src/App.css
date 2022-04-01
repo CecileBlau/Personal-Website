@@ -345,8 +345,15 @@
   font-size: 45px;
 }
 
-
-.projectsHilos{
+.card{
+  /* height: auto; */
+  width: 480px;
+}
+.cardMedia{
+  height:180px;
+ 
+}
+/* .projectsHilos{
  
     background: #333;
     font-family: 'PT Sans', sans-serif;
@@ -358,19 +365,19 @@
     box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
    height: 100%;
 
-}
-.projectsDiv{
+} */
+/* .projectsDiv{
   display:'flex';
   width:100%;
   
-}
+} */
 
-.explicacion{
+/* .explicacion{
   height: 80%;
   padding: 40px;
   border: 4px  dotted gray;
   width: 50%;
-}
+} */
 
 
 
@@ -405,6 +412,7 @@
 
 
 @media screen and (max-width: 914px){
+  
   .title{
     height:auto;
   }
@@ -420,6 +428,7 @@
   .myPhoto{
     height: 100%;
     width: 100%;
+    margin-bottom: 0px;
   }
   .technicalSkills {
     display: flex;
@@ -434,11 +443,37 @@
     padding:25px
   }
 
+  .newProjectsMain div{
+    padding: auto;
+    margin-bottom: 30px;
+    /* width: 300px;
+    height: 300px; */
+  }
+ 
+.projectsMain{
+  height:auto;
+}
 
+.newProjectsMain {
+  display: flex;
+  flex-direction: column;
+}
 
+.card{
+ 
+  width: auto;
+}
+.cardMedia{
+  height:auto;
 
+ 
+}
+.contactMain{
+  height: 650px;
+}
   .contactMain h1{
     font-size: 40px;
+  
   }
 
   .contact{
@@ -460,4 +495,5 @@
    justify-content: center;
    
   }
+ 
 }

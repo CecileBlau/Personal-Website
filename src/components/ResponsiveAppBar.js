@@ -22,7 +22,7 @@ function ResponsiveAppBar(props) {
         <ul className={click ? "nav-menu active" : "nav-menu"}>
           <li className='nav-item'>
             <a href='/'>
-              <Link  activeClass="active" to="about" spy={true} smooth={true} offset={550} duration={500}> About me
+              <Link  activeClass="active" to="aboutTwo" spy={true} smooth={true} offset={0} duration={500}> About me
               </Link>
             </a>
 
@@ -33,7 +33,7 @@ function ResponsiveAppBar(props) {
             </a> </li>
 
           <li> <a href='/'>
-              <Link  activeClass="active" to="contact" spy={true} smooth={true} offset={50} duration={500}> Contact me
+              <Link  activeClass="active" to="contact" spy={true} smooth={true} offset={0} duration={500}> Contact me
               </Link>
             </a> </li>
         </ul>
