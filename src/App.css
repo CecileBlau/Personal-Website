@@ -4,156 +4,167 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 
 }
-.mainContainer{
+
+.mainContainer {
   width: 100%;
-  
+
 }
 
 /* -----NAV BAR START ----- */
-.navbar{
+.navbar {
   width: 100%;
   height: 100px;
   position: fixed;
   z-index: 5;
 }
 
-.navbar .container{
+.navbar .container {
   display: flex;
   /* background-color: whitesmoke; */
   background-color: aliceblue;
   align-items: center;
-  
+
 }
-.navbar .logo{
+
+.navbar .logo {
   display: flex;
   align-items: center;
   margin: 1rem;
   z-index: 5;
- 
+
 }
-.nav-menu{
+
+.nav-menu {
   display: flex;
-   
+
 }
-.nav-menu li{
+
+.nav-menu li {
   list-style: none;
   padding: 1rem;
   font-family: 'Arial';
-  
+
 
 }
-.nav-menu ul{
+
+.nav-menu ul {
   display: flex;
 }
 
 .nav-menu a {
   text-decoration: none;
-  color:black;
+  color: black;
   font-family: Verdana, Tahoma, sans-serif
- 
 }
 
-.nav-menu a:hover{
+.nav-menu a:hover {
   color: gray;
- 
+
 }
-.logo a{
+
+.logo a {
   text-decoration: none;
-  color:black;
+  color: black;
   font-family: Verdana, Tahoma, sans-serif
 }
 
 
 
 /* -----NAV BAR END ----- */
-.containerWithoutImage{
+.containerWithoutImage {
   width: 100%
 }
 
-.aboutMeText{
+.aboutMeText {
   letter-spacing: 0.6px;
   font-size: large;
 }
-.aboutMeText h3{
- margin-top: 50px;
- margin-bottom: 20px;
- 
-}
-.technicalSkills{
-  display:flex;
-  font-size: medium;
-  
+
+.aboutMeText h3 {
+  margin-top: 50px;
+  margin-bottom: 20px;
+
 }
 
-.technicalSkills img{
-  display:flex;
+.technicalSkills {
+  display: flex;
+  font-size: medium;
+
+}
+
+.technicalSkills img {
+  display: flex;
   width: 2rem;
   height: 2rem;
   box-sizing: border-box;
-  
-  
+
+
 }
 
-.technicalSkills div{
+.technicalSkills div {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: space-around;
-  margin:12px;
-  flex-wrap: wrap;
-}
-.technicalSkills p {
-  color: black
-}
-.technicalSkills div:hover{
-  -webkit-transform: scale(1.1);
-  -ms-transform: scale(1.1);
-  transform: scale(1.1);
-  cursor:pointer;
+  margin: 12px;
   flex-wrap: wrap;
 }
 
-.aboutMe{
+.technicalSkills p {
+  color: black
+}
+
+.technicalSkills div:hover {
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+  cursor: pointer;
+  flex-wrap: wrap;
+}
+
+.aboutMe {
   display: flex;
   flex-direction: column;
   width: 100%;
   height: auto;
- 
- 
+
+
 
 }
 
 
-.aboutMePhoto{
- padding: 5%;
- display: flex;
- align-items: center;
- 
- 
+.aboutMePhoto {
+  padding: 5%;
+  display: flex;
+  align-items: center;
+
+
 
 }
-.aboutMeText{
- padding-top: 70px;
- padding-right: 50px;
+
+.aboutMeText {
+  padding-top: 70px;
+  padding-right: 50px;
   text-align: justify;
   width: 100%;
   height: auto;
- 
+
 
 }
+
 .aboutMeText p {
-  display:flex;
+  display: flex;
   flex-direction: row;
   margin-top: 10px;
   margin-bottom: 10px;
-  
-  
+
+
 }
 
-.divContainingPhotoAndTextAbout{
+.divContainingPhotoAndTextAbout {
   display: flex;
   flex-direction: row;
   /* background: rgb(255, 203, 170); */
@@ -162,24 +173,23 @@
   /* background-color: lightgrey; */
   height: 600px;
   padding-left: 0px;
- 
-  
+
+
 
 }
 
 
 
-.title{
-  
+.title {
+
   height: 600px;
   background-size: cover;
   position: relative;
   z-index: 1
- 
 }
 
 
-.title::before{
+.title::before {
   content: "";
   position: absolute;
   z-index: -1;
@@ -194,7 +204,7 @@
 }
 
 
-.titleCecile{
+.titleCecile {
   font-family: 'Cookie';
   opacity: 1;
   font-size: 13rem;
@@ -207,10 +217,10 @@
   margin-top: 20%;
   color: black;
   /* text-shadow: #CCC 1px 0 4px; */
- 
+
 }
 
-.myPhoto{
+.myPhoto {
   width: 100%;
   border-radius: 7%;
   box-shadow: 0 16px 32px 0 rgba(0, 0, 0, 0.2), 0 24px 80px 0 rgba(0, 0, 0, 0.19);
@@ -218,14 +228,14 @@
   margin-bottom: 70px;
 }
 
-.contactMain{
+.contactMain {
   /* background:whitesmoke; */
   background: aliceblue;
-  height:600px;
+  height: 600px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content:space-evenly;
+  justify-content: space-evenly;
 }
 
 .contactMain h1 {
@@ -239,28 +249,28 @@
 
 }
 
-.contact{
+.contact {
   display: flex;
   flex-direction: row;
   align-items: flex-start;
   justify-content: space-between;
- 
+
 }
 
-.contact div:hover{
+.contact div:hover {
   clip-path: circle();
   transform: scale(1.1);
   cursor: pointer;
-  
+
 }
 
-.contact img{
+.contact img {
   margin-bottom: 10px;
   height: 40px;
-  width: 40px;  
+  width: 40px;
 }
 
-.contact div{
+.contact div {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -273,86 +283,94 @@
   height: 170px;
   letter-spacing: 1px;
   justify-content: center;
-  transition: all .2s ease-in-out; 
+  transition: all .2s ease-in-out;
   cursor: pointer;
 }
 
 
 
-.contactTwoDivs{
+.contactTwoDivs {
   display: flex;
   justify-content: space-evenly;
 }
-.contact a:any-link{
+
+.contact a:any-link {
   color: black;
-  text-decoration:none;
+  text-decoration: none;
   font-size: 0.8em;
 
 }
-.newProjectsMain{
+
+.newProjectsMain {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  
-  
+
+
 }
-.projectsMain{
-  background: rgb(29, 25, 89, 0.8) ;
+
+.projectsMain {
+  background: rgb(29, 25, 89, 0.8);
   /* background-color: rgb(255, 67, 62); */
- 
+
   height: 700px;
-  
+
 }
-.projectsComponent{
+
+.projectsComponent {
   display: flex;
   flex-direction: column;
-  align-items:center;
+  align-items: center;
   background-color: #FDF0D5;
- 
+
 }
-.projects{
+
+.projects {
   display: flex;
   padding: 20px;
   text-align: justify;
 
- 
+
 }
-.projectsComponent div{
+
+.projectsComponent div {
   display: flex;
-  
+
 }
 
 
-.projects div{
+.projects div {
   display: flex;
   flex-direction: column;
   align-items: center;
-  
+
 }
 
-.post a:any-link{
+.post a:any-link {
   color: white;
 }
 
 
-.titleProjects h1{
+.titleProjects h1 {
   margin-bottom: 80px;
   display: flex;
   justify-content: center;
   padding-top: 70px;
-  color:aliceblue;
-  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color: aliceblue;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   font-size: 45px;
 }
 
-.card{
+.card {
   /* height: auto; */
   width: 480px;
 }
-.cardMedia{
-  height:180px;
- 
+
+.cardMedia {
+  height: 180px;
+
 }
+
 /* .projectsHilos{
  
     background: #333;
@@ -388,14 +406,17 @@
     transform: scale(0.9);
   }
 }
-@keyframes titleCecile{
+
+@keyframes titleCecile {
   to {
     -webkit-transform: scale(0.9);
     transform: scale(0.9);
   }
 }
 
-.titleCecile:hover, .titleCecile:focus, .titleCecile:active {
+.titleCecile:hover,
+.titleCecile:focus,
+.titleCecile:active {
   -webkit-animation-name: titleCecile;
   animation-name: titleCecile;
   -webkit-animation-duration: 0.3s;
@@ -411,89 +432,102 @@
 
 
 
-@media screen and (max-width: 914px){
-  
-  .title{
-    height:auto;
+@media screen and (max-width: 914px) {
+
+  .title {
+    height: auto;
   }
-  .titleCecile{
-    font-size:5rem
+
+  .titleCecile {
+    font-size: 5rem
   }
-  .divContainingPhotoAndTextAbout{
+
+  .divContainingPhotoAndTextAbout {
     display: flex;
     flex-direction: column;
     height: auto;
-   
+
   }
-  .myPhoto{
+
+  .myPhoto {
     height: 100%;
     width: 100%;
     margin-bottom: 0px;
   }
+
   .technicalSkills {
     display: flex;
     flex-wrap: wrap;
-    
+
   }
-  .aboutMeText  {
+
+  .aboutMeText {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding:25px
+    padding: 25px
   }
 
-  .newProjectsMain div{
+  .newProjectsMain div {
     padding: auto;
     margin-bottom: 30px;
     /* width: 300px;
     height: 300px; */
   }
- 
-.projectsMain{
-  height:auto;
-}
 
-.newProjectsMain {
-  display: flex;
-  flex-direction: column;
-}
-
-.card{
- 
-  width: auto;
-}
-.cardMedia{
-  height:auto;
-
- 
-}
-.contactMain{
-  height: 650px;
-}
-  .contactMain h1{
-    font-size: 40px;
   
+  .projectsMain {
+    height: auto;
   }
 
-  .contact{
+  .newProjectsMain {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .card {
+
+    width: auto;
+  }
+
+  .cardMedia {
+    height: auto;
+
+
+  }
+
+  .contactMain {
+    height: 650px;
+  }
+
+  .contactMain h1 {
+    font-size: 40px;
+
+  }
+
+  .contact {
     display: flex;
     flex-wrap: wrap;
   }
-  .contact div{
+
+  .contact div {
     height: 7rem;
     width: 7rem
   }
-  .contact img{
-    height: 30px;;
+
+  .contact img {
+    height: 30px;
+    ;
     width: 30px
   }
-  .contact h3{
-   font-size: 9px;
-   display: flex;
-   flex-wrap: wrap;
-   justify-content: center;
-   
+
+  .contact h3 {
+    font-size: 9px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
   }
- 
+
 }
